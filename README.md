@@ -60,7 +60,7 @@ The system uses 6 linked tables:
 2. Clone this repository into your `htdocs` folder:
    `git clone https://github.com/breezy-x2/farm-management-system.git`
 3. Start Apache and MySQL in the XAMPP Control Panel
-4. Open `http://localhost/phpmyadmin`, create a database, and import the SQL file included in this repository
+4. Open http://localhost/phpmyadmin, create a database called farm_management, and import farm_database.sql from this repository.
 5. Update `config/db.php` if your database credentials differ from the defaults
 6. Visit `http://localhost/farm-management-system/`
 7. Register a new account to get started
